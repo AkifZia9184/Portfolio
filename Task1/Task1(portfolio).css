@@ -1,0 +1,255 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0; /* Add this to remove default margin */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Add this for consistent font */
+}
+
+#name {
+    position: relative;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: larger;
+}
+
+#mode {
+    position: relative;
+    text-decoration: none;
+    margin-left: 250px;
+    color: darkgray;
+}
+
+.navigation {
+    position: relative;
+    text-decoration: none;
+    margin-left: 70px;
+    color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.n {
+    padding-top: 2%;
+    background-color: black;
+    margin-bottom: 2%;
+}
+
+
+.a{
+    margin-top: 15%;
+    margin-left: 200px;
+    font-size:270%;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bb{
+    margin-top: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: gray;
+}
+
+.img{
+    margin-top: 40%;
+}
+
+.img img{
+    height: 250px;
+}
+
+.container{
+    display:grid;
+    align-items:center; 
+    grid-template-columns: 100fr 70fr 0fr;
+    column-gap: 5px;
+}
+
+
+#resume{
+  border-radius: 2cm;
+  width: 4cm;
+  height: 1.2cm;
+  cursor: pointer;
+  color: gray;
+  font-weight: bold;
+}
+
+.project{
+    margin-left: 200px;
+    margin-right: 200px;
+    display:grid;
+    align-items:center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.p_tittle{
+    margin-top: 20%;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 130%;
+    text-align: center;
+}
+
+.card1.dark-mode {
+    background-color: white;
+    color:black;
+    margin-top: 15%;
+    
+}
+
+
+#navbar{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.card1 img{
+    width: 300px;
+    height: 250px;
+}
+  
+.title {
+    color: grey;
+    font-size: 18px;
+    text-align:justify; 
+    margin: 10px;
+}
+
+.card{
+    border-radius: 5%;
+    width: 4cm;
+    height: 1.2cm;
+    cursor: pointer;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 3%;
+    background-color: rgb(68, 68, 255);
+  }
+
+
+
+.Resum {
+    margin-left: 200px;
+   
+    display: flex;
+    justify-content: space-between; /* Adjust the space between sections */
+}
+
+.section {
+    flex: 1; /* Equal width for both sections */
+}
+
+.section h1{
+    font-size: 300%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+}
+
+.section li{
+    font-size: 190%;
+    margin-right: 15%;
+    font-weight: bold;
+}
+
+.section p{
+  color:gray;
+  margin-right: 15%;
+}
+
+.section ul{
+    margin-bottom: 15%;
+  }
+
+.section small{
+  color:rgb(131, 129, 129);
+  font-size:large;
+}
+h1, ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.Contact{
+   
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.Contact h1{
+    margin-left: 400px;
+    margin-bottom: 70px;
+    font-size: 300%;
+}
+
+#inp{
+    height: 1cm;
+    width: 12cm;
+    margin: 20px;
+   color: gray;
+   
+}
+
+#inpu{
+    height: 1cm;
+    width: 12cm;
+    margin: 20px;
+   color: gray;
+   
+}
+
+#sub{
+    height: 1cm;
+    width: 25.4cm;
+    margin: 20px;
+   
+}
+
+#msg{
+    height: 4cm;
+    width: 25.4cm;
+    margin: 20px;
+   
+}
+
+#Respons{
+    margin-left:82%
+}
+
+footer{
+    text-align: center;
+    color: gray;
+    margin: 0%;
+}
+
+footer a{
+   text-decoration: none;
+   
+}
+
+input::placeholder{
+    color: gray;
+    font-weight: bold;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+textarea::placeholder{
+    color: gray;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+

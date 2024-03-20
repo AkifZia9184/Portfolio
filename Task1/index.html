@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Task1(portfolio).css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="Task1(portfolio).js"></script>
+</head>
+<body>
+<!-- Navbar -->
+    <nav id="navbar">
+        <div class="n">
+            <a id="name" href=""><i class='fa fa-user-circle' style='font-size:25px'></i>&nbsp;&nbsp; Akif</a>
+            <a href="#About" class="navigation">About</a>
+            <a href="#p1" class="navigation">Projects</a>
+            <a href="#resumee" class="navigation">Resume</a>
+            <a href="#con" class="navigation">Contact</a>
+            <a id="mode" href="#" onclick="dark()"><i style="font-size:24px" class="fa">&#xf186;</i>&nbsp;&nbsp; Color Mode</a>
+        </div>
+    </nav>
+
+<!-- About -->
+    <div class="container" id="About">
+        <div class="a">
+            <span>Hey folks, I am</span>
+            <span id="changingText"></span>
+            <p id="bb">Building a successful product is a challenge. I am highly energetic in user <br> experience design, interfaces and web development.</p>
+            <button id="resume">View Resume</button>
+        </div>
+        
+        <div class="img">
+            <img src="i1.jpg" alt="not founds">
+        </div>
+    </div>  
+
+<!-- Projects -->
+    <div class="p_tittle" id="p1">
+        <h1><br><br>Projects I have done so far as a Web Developer and Programmer</h1>
+    </div>
+    
+    <div class="project" id="projects">
+        <div class="card1 dark-mode">
+            <img src="c1.jpeg" alt="Battle Ship Game">
+            <h1>Battle Ship Game</h1>
+            <p class="title">Battleship is a strategy type guessing game for two players. It is played on ruled grids on which each player's fleet of warships are marked.</p>
+            <button class="card">Details</button>       
+        </div>
+
+        <div class="card1 dark-mode">
+            <img src="c11.jpg" alt="Battle Ship Game">
+            <h1>Cricbuzz</h1>
+            <p class="title">Cricbuzz is one of the most popular mobile apps for cricket news and scores. It gives the live updates about cricket bieng played around the globe</p>
+            <button class="card">Details</button>
+        </div>
+
+        <div class="card1 dark-mode">
+            <img src="c3.jpeg" alt="Battle Ship Game">
+            <h1>Tic Tac Toe</h1>
+            <p class="title">A game in which two players seek in alternate turns to complete a row, a column, or a diagonal with either three O's or three X's</p>
+            <button class="card">Details</button>
+        </div>   
+    </div>
+
+<!-- Resume -->
+    <div class="Resum" id="resumee">
+        <div class="section">
+            <h1>Experience</h1>
+            <ul id="lis">
+                <li>Complete knowledge of <span style="color: darkgreen;">(c++, c, c# & Python)</span> <br> <small>Object-oriented programming, Data Structures</small></li>
+                <p>I have worked for three years in these languages done many Projects in these languages including   Battleship game, Tic Tac Toe, Cricbuzz, Notepad and many more projects.</p>
+                <li>Can manage databases <span style="color: darkgreen;">(SQL, MySQL, NoSQL)</span></li>
+                <p>Done a project on inventory management system using c# SQL & MysQL. Scalability and secuirity of that app was also managed.</p>
+            </ul>
+        </div>
+        <div class="section">
+            <h1>Education</h1>
+            <ul id="lis">
+                <li><span style="color: darkgreen;">2019:</span> Loards International School System <small>(Lahore)</small> <br> </li>
+                <p>I got A+ in Matricullation in Lahore Board and secured 93% marks.I have done Matriculation in computer science from Lahore Board</p>
+                <li><span style="color: darkgreen;">2019-2021:</span> Forman Christian College <small>(Lahore)</small></li>
+                <p>I got A in FSC Pre Engineering in Lahore Board and secured 87% marks.I have done intermediate in Science taking Chemistry and maths as major Subjects</p>
+                <li><span style="color: darkgreen;">2021-2025:</span> FAST-NUCES <small>(Computer Science)</small></li>
+                <p>I got admission in FAST-NUCES in 2021 and now (2024) i am in my 6th Semester. I have studied computer Science as a Major subject and made many projects so far. I will be graduated from FAST in 2025 </p>
+            </ul>
+        </div>
+    </div>
+
+<!-- Contact -->
+   <div class="Contact" id="con">
+       <h1><br><br>Contact us</h1>
+
+       <form action="">
+          
+          <input type="text" id="inp" placeholder="Name">
+          <input type="text" id="inpu" placeholder="Email">
+          <input type="text" id="sub" placeholder="Subject"><br>
+          <textarea name="message" rows="6" class="form-control" id="msg" placeholder="Message" required></textarea>
+       </form>
+       <button class="card" id="Respons">Submit Response</button>
+   </div>
+
+<!-- Footer -->
+    <footer>
+        <p>Copyright <i class="fa fa-copyright"></i> 2024 Akif. All rights reserved</p>
+        <p>Designed By <a href="">Akif</a></p>
+    </footer>
+</body>
+</html>

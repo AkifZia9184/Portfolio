@@ -4,7 +4,6 @@ function dark() {
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
         document.querySelector('.card1').classList.remove('dark-mode'); 
-        document.querySelector('.n').style.backgroundColor="black";
         document.querySelector('#inp').style.backgroundColor="white";
         document.querySelector('#inp').style.borderColor="black";
         document.querySelector('#sub').style.backgroundColor="white";
@@ -17,7 +16,6 @@ function dark() {
         document.body.style.backgroundColor = "black";
         document.body.style.color = "white";
         document.querySelector('.card1').classList.add('dark-mode');
-        document.querySelector('.n').style.backgroundColor="gray";
         document.querySelector('#inp').style.backgroundColor="black";
         document.querySelector('#inp').style.borderColor="white";
         document.querySelector('#sub').style.backgroundColor="black";
@@ -38,6 +36,9 @@ function changeText() {
     textElement.innerHTML = texts[currentIndex]; // Set the text to the current index
     currentIndex = (currentIndex + 1) % texts.length; // Increment index and loop back to 0 if it exceeds the array length
 }
+
+
+
 
 document.addEventListener('DOMContentLoaded', function () {
     // Add smooth scrolling to navigation links
